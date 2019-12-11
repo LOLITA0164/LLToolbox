@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LLToolbox_Example' do
+  pod 'LLToolbox', :path => '../'
+
+  target 'LLToolbox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
