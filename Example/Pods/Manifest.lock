@@ -1,0 +1,16 @@
+PODS:
+  - LLToolbox (0.1.0)
+
+DEPENDENCIES:
+  - LLToolbox (from `../`)
+
+EXTERNAL SOURCES:
+  LLToolbox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLToolbox: 42fb158faeeec776178b6934f061f52ba2c069eb
+
+PODFILE CHECKSUM: 20117e162f287a305f05e8a36b9216172d15b9f7
+
+COCOAPODS: 1.7.2
