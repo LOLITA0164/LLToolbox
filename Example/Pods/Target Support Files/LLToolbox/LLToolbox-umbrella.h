@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "LLToolCategory.h"
+#import "LLToolFunction.h"
 #import "NSDictionary+LLTool.h"
 #import "NSObject+LLTool.h"
 #import "NSString+LLTool.h"
@@ -19,8 +21,6 @@
 #import "UITableViewCell+LLTool.h"
 #import "LLFileManager.h"
 #import "LLThread.h"
-#import "LLToolCategory.h"
-#import "LLToolFunction.h"
 
 FOUNDATION_EXPORT double LLToolboxVersionNumber;
 FOUNDATION_EXPORT const unsigned char LLToolboxVersionString[];

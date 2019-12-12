@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LLToolbox'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LLToolbox.'
+  s.version          = '0.1.1'
+  s.summary          = '开发工具盒.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LLToolbox/Classes/**/*'
+  s.source_files = 'LLToolbox/Classes/*.h'
+  
+  s.subspec 'Categorys' do |ss|
+    ss.source_files = 'LLToolbox/Classes/Categorys/*'
+  end
+  
+  s.subspec 'Functions' do |dd|
+    dd.source_files = 'LLToolbox/Classes/Functions/*'
+  end
+  
   
   # s.resource_bundles = {
   #   'LLToolbox' => ['LLToolbox/Assets/*.png']
