@@ -16,8 +16,10 @@
  @param modelDic 数据源
  @param hintDic 映射字典 @{ 模型属性 : 数据源字段 }
  */
-/// 模型初始化
-+(instancetype)objectWithModelDic:(NSDictionary*)modelDic hintDic:(NSDictionary*)hintDic;
+ /// 模型初始化
+ +(instancetype)objectWithModelDic:(NSDictionary*)modelDic hintDic:(NSDictionary*)hintDic;
+ /// 模型初始化
+ +(instancetype)objectWithModelDic:(NSDictionary*)modelDic;
 
 
 /// 追加属性（相同覆盖）

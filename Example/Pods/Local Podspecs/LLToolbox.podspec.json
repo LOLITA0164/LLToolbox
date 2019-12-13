@@ -1,6 +1,6 @@
 {
   "name": "LLToolbox",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "开发工具盒.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LOLITA0164/LLToolbox",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LOLITA0164/LLToolbox.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -27,6 +27,10 @@
     {
       "name": "Functions",
       "source_files": "LLToolbox/Classes/Functions/*"
+    },
+    {
+      "name": "Views",
+      "source_files": "LLToolbox/Classes/Views/*"
     }
   ]
 }

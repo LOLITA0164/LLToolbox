@@ -10,7 +10,12 @@
 
 @implementation UIApplication (LLTool)
 -(UIViewController*) currentViewController {
-    UIViewController* viewController = [UIApplication sharedApplication].keyWindow.rootViewController;
+    UIViewController* viewController = nil;
+    if (@available (iOS 13, *)) {
+        viewController = [[[UIApplication sharedApplication] windows] objectAtIndex:0].rootViewController;
+    } else {
+        viewController = UIApplication.sharedApplication.keyWindow.rootViewController;
+    }
     return [self findBestViewController:viewController];
 }
 -(UIViewController*) findBestViewController:(UIViewController*)vc {

@@ -18,6 +18,10 @@
     [instance appendFromDic:modelDic hintDic:hintDic];
     return instance;
 }
+/// 模型初始化
++(instancetype)objectWithModelDic:(NSDictionary*)modelDic{
+    return [self objectWithModelDic:modelDic hintDic:nil];
+}
 
 
 
