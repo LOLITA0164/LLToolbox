@@ -6,6 +6,9 @@
 //  Copyright © 2018年 LOLITA0164. All rights reserved.
 //
 
+
+#import "UIApplication+LLTool.h"
+
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
 
 #import <UIKit/UIKit.h>
