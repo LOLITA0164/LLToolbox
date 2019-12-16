@@ -19,6 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "LLToolbox/Classes/*.h",
+  "public_header_files": "LLToolbox/Classes/*.h",
   "subspecs": [
     {
       "name": "Categorys",
@@ -30,7 +31,12 @@
     },
     {
       "name": "Views",
-      "source_files": "LLToolbox/Classes/Views/*"
+      "source_files": "LLToolbox/Classes/Views/*",
+      "dependencies": {
+        "LLToolbox/Categorys": [
+
+        ]
+      }
     }
   ]
 }
