@@ -7,7 +7,7 @@
 //
 
 #import "LLAlertView.h"
-#import <LLToolbox/LLToolCateGory.h>
+#import "UIApplication+LLTool.h"
 
 @interface LLAlertView ()<UIAlertViewDelegate,UIActionSheetDelegate,CAAnimationDelegate>
 @property (strong ,nonatomic) id object;    // 用于循环引用

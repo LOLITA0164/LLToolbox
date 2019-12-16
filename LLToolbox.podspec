@@ -42,6 +42,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Views' do |aa|
     aa.source_files = 'LLToolbox/Classes/Views/*'
+    aa.dependency 'LLToolbox/Categorys'
   end
   
   
