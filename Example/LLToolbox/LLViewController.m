@@ -35,7 +35,10 @@
     
     self.subTable = [self getATable];
     self.subTable.typeNested = LLNestedTableViewTypeSub;
+    
 }
+
+
 
 
 -(LLNestedTableView*)getATable{
