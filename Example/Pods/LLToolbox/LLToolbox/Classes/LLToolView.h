@@ -9,7 +9,7 @@
 #ifndef LLToolView_h
 #define LLToolView_h
 
-#import "LLAlertView.h" // 系统弹窗管理
-#import "LLNestedTableView.h" // 列表嵌套
+#import "LLAlertView.h"
+#import "LLNestedTableView.h"
 
 #endif /* LLToolView_h */

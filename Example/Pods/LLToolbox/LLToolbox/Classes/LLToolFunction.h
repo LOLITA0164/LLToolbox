@@ -9,8 +9,7 @@
 #ifndef LLToolFunction_h
 #define LLToolFunction_h
 
-#import "LLFileManager.h" // 文件管理
-#import "LLThread.h" // 个人线程
-#import "LLRemotePush.h" // 远程推送
+#import "LLFileManager.h"
+#import "LLThread.h"
 
 #endif /* LLToolFunction_h */

@@ -136,7 +136,6 @@
 		6003F593195388D20070C39A /* Example for LLToolbox */ = {
 			isa = PBXGroup;
 			children = (
-				C717399323A208560002EEBD /* Views */,
 				6003F59C195388D20070C39A /* LLAppDelegate.h */,
 				6003F59D195388D20070C39A /* LLAppDelegate.m */,
 				6003F5A5195388D20070C39A /* LLViewController.h */,
@@ -191,13 +190,6 @@
 				6B073F170DCF2D4D305CFD56 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		C717399323A208560002EEBD /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Views;
 			sourceTree = "<group>";
 		};
 		E3A8DFD297C313F8F4A6DB70 /* Pods */ = {
