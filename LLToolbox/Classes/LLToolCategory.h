@@ -16,5 +16,8 @@
 #import "UIApplication+LLTool.h" // 获取当前控制器
 #import "UIButton+LLTool.h" // 事件block回调
 #import "UITableViewCell+LLTool.h" // 便捷重用
+#import "UICollectionViewCell+LLTool.h" // 便捷重用
+#import "UIView+LLTool.h" // 视图布局工具
+#import "UIColor+LLTool.h" // 颜色
 
 #endif /* LLToolCategory_h */

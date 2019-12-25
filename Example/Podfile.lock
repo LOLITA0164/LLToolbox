@@ -1,11 +1,11 @@
 PODS:
-  - LLToolbox (0.1.2):
-    - LLToolbox/Categorys (= 0.1.2)
-    - LLToolbox/Functions (= 0.1.2)
-    - LLToolbox/Views (= 0.1.2)
-  - LLToolbox/Categorys (0.1.2)
-  - LLToolbox/Functions (0.1.2)
-  - LLToolbox/Views (0.1.2):
+  - LLToolbox (0.1.3):
+    - LLToolbox/Categorys (= 0.1.3)
+    - LLToolbox/Functions (= 0.1.3)
+    - LLToolbox/Views (= 0.1.3)
+  - LLToolbox/Categorys (0.1.3)
+  - LLToolbox/Functions (0.1.3)
+  - LLToolbox/Views (0.1.3):
     - LLToolbox/Categorys
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LLToolbox: 8969a2e0e59aeb467c5dfdc017cc73a572443729
+  LLToolbox: 4b7a72a11d205a5b319fc1b3c70fed1c37c2fad5
 
 PODFILE CHECKSUM: 70cfb4929b039227ee7045c3681137d9eed0496c
 
