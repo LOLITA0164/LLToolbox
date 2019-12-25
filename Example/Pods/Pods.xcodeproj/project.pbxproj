@@ -78,7 +78,7 @@
 		09BF01E5D353F982DEF0F2BBA529E2F2 /* LLToolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLToolbox.h; path = LLToolbox/Classes/Functions/LLToolbox.h; sourceTree = "<group>"; };
 		0F11500AD173B7E1B8952801941A6750 /* UICollectionViewCell+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+LLTool.m"; path = "LLToolbox/Classes/Categorys/UICollectionViewCell+LLTool.m"; sourceTree = "<group>"; };
 		0F27B32AB4367962C8694FB9EF1FCCA1 /* UIColor+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LLTool.m"; path = "LLToolbox/Classes/Categorys/UIColor+LLTool.m"; sourceTree = "<group>"; };
-		12319BB6058B29CC1301100DE9327E22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		12319BB6058B29CC1301100DE9327E22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		146EF6451A5F132D67A35F85DA13C9A7 /* LLToolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLToolView.h; path = LLToolbox/Classes/LLToolView.h; sourceTree = "<group>"; };
 		1C46B32AA4F17E267E54660B0C431B8C /* LLThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLThread.h; path = LLToolbox/Classes/Functions/LLThread.h; sourceTree = "<group>"; };
 		1EC0556665833A28CD6892870B38DC74 /* NSDictionary+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LLTool.m"; path = "LLToolbox/Classes/Categorys/NSDictionary+LLTool.m"; sourceTree = "<group>"; };
@@ -92,10 +92,10 @@
 		30451FD40B92B204F000AD7AEBECCD06 /* NSTimer+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+LLTool.h"; path = "LLToolbox/Classes/Categorys/NSTimer+LLTool.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33B7979D5AAF3D035569D216A4A0909C /* Pods-LLToolbox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLToolbox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3873EF5B9014BD74E9D8F94C64ED04D7 /* LLToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LLToolbox.framework; path = LLToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39D79896267CB803C514BB9FBA74DADA /* LLToolbox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLToolbox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3873EF5B9014BD74E9D8F94C64ED04D7 /* LLToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D79896267CB803C514BB9FBA74DADA /* LLToolbox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LLToolbox.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		39E10CAF0DE4B479D12FE47483E5D10B /* Pods-LLToolbox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLToolbox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3F9F5866F5BA63FD80BAE53FBCCC4ACB /* Pods_LLToolbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLToolbox_Tests.framework; path = "Pods-LLToolbox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9F5866F5BA63FD80BAE53FBCCC4ACB /* Pods_LLToolbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLToolbox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4063B8ADA07F4FC49CE5DF199C970FDD /* Pods-LLToolbox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLToolbox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		40C4074FA9C96FDA0636946BA7B786D5 /* NSString+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LLTool.h"; path = "LLToolbox/Classes/Categorys/NSString+LLTool.h"; sourceTree = "<group>"; };
 		46FA7996CC50C431FB39C8768981825C /* LLAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLAlertView.m; path = LLToolbox/Classes/Views/LLAlertView.m; sourceTree = "<group>"; };
@@ -117,11 +117,11 @@
 		80BFEA62B3A980D30569C8DEF8B79520 /* Pods-LLToolbox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLToolbox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8FD8801BEE410AE00F809FAEC2178467 /* LLToolbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLToolbox.modulemap; sourceTree = "<group>"; };
 		94FAB0090A4BD1ECBD10A09CE55891D8 /* Pods-LLToolbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLToolbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFEC0A8C60F647A8F7F2357B56B3A7A /* Pods-LLToolbox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLToolbox_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A1067D8DB9DD4D99793784ECA3CBE279 /* LLToolbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLToolbox-prefix.pch"; sourceTree = "<group>"; };
 		A74E3BF97CFCAAEC400DB8F995A7008D /* LLRemotePush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLRemotePush.h; path = LLToolbox/Classes/Functions/LLRemotePush.h; sourceTree = "<group>"; };
-		ADDFF930D081B997C93CB43641BCCFFE /* Pods_LLToolbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLToolbox_Example.framework; path = "Pods-LLToolbox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDFF930D081B997C93CB43641BCCFFE /* Pods_LLToolbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLToolbox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9060498C796B55BCCA4EC00824F8044 /* NSString+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LLTool.m"; path = "LLToolbox/Classes/Categorys/NSString+LLTool.m"; sourceTree = "<group>"; };
 		B977BF52888C6D18F87706990944CED7 /* NSDictionary+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LLTool.h"; path = "LLToolbox/Classes/Categorys/NSDictionary+LLTool.h"; sourceTree = "<group>"; };
 		C4293D0D830F363985AC73DD6C9DFA4B /* UITableViewCell+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+LLTool.m"; path = "LLToolbox/Classes/Categorys/UITableViewCell+LLTool.m"; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		D1B30879D63499C7DED8E22EFC5DEAF6 /* LLNestedTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLNestedTableView.m; path = LLToolbox/Classes/Views/LLNestedTableView.m; sourceTree = "<group>"; };
 		D76B5CBFCB789A3D3430993D43C606DD /* UITableViewCell+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+LLTool.h"; path = "LLToolbox/Classes/Categorys/UITableViewCell+LLTool.h"; sourceTree = "<group>"; };
 		DDA356DCBE280158993481EC0584F81D /* LLThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLThread.m; path = LLToolbox/Classes/Functions/LLThread.m; sourceTree = "<group>"; };
-		E83B32EB1AF70E85DDF9171F1FD42C0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E83B32EB1AF70E85DDF9171F1FD42C0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E966D7523F5BEF90A72B1AE47D65F739 /* LLAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLAlertView.h; path = LLToolbox/Classes/Views/LLAlertView.h; sourceTree = "<group>"; };
 		E977B5AE435D7C35BEB2D4010DDFD3CF /* UIButton+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LLTool.m"; path = "LLToolbox/Classes/Categorys/UIButton+LLTool.m"; sourceTree = "<group>"; };
 		F2AC6AC29A7D253C752216DDB2FCB893 /* UIView+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LLTool.h"; path = "LLToolbox/Classes/Categorys/UIView+LLTool.h"; sourceTree = "<group>"; };
@@ -649,8 +649,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
