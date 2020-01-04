@@ -1,26 +1,29 @@
 //
-//  LLToolbox.h
-//  LLToolbox_Example
+//  LLToolKit.h
+//  LLToolKit_Example
 //
 //  Created by 骆亮 on 2019/12/25.
 //  Copyright © 2019 LOLITA0164. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @class AppInfo;
 @class Device;
 #pragma mark - 工具箱，各种常用配置
-@interface LLToolbox : NSObject
+@interface LLToolKit : NSObject
 /// 实例
 +(instancetype)share;
+/// 工具箱的版本
++(NSString*)version;
 @end
 
 
 
 
 #pragma mark - 其他类功能
-@interface LLToolbox (tool)
+@interface LLToolKit (tool)
 /// 随机数字
 +(int (^)(int a, int b))randNumber;
 /// 适配比例，基数为 375.0 大小的屏幕
@@ -32,7 +35,7 @@
 
 
 #pragma mark - 其他信息
-@interface LLToolbox (info)
+@interface LLToolKit (info)
 /// 状态栏高度
 +(CGFloat)statusBarHeight;
 /// 导航栏高度
@@ -55,7 +58,7 @@
 
 
 #pragma mark - 颜色类
-@interface LLToolbox (UIColor)
+@interface LLToolKit (UIColor)
 /// 十六进制获取颜色
 +(UIColor* (^)(NSInteger rgbValue))colorWithHex;
 /// RGB获取颜色
@@ -81,7 +84,7 @@
 /// 包标识
 -(NSString*)bundleIdentifier;
 @end
-@interface LLToolbox (AppInfo)
+@interface LLToolKit (AppInfo)
 /// 应用信息
 -(AppInfo*)app;
 @end
@@ -104,7 +107,7 @@
 /// 通用唯一标识码
 //-(NSString *)IMEI;
 @end
-@interface LLToolbox (Device)
+@interface LLToolKit (Device)
 /// 设置信息
 -(Device*)device;
 @end

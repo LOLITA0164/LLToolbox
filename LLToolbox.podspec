@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LLToolbox'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '开发工具盒.'
 
 # This description is used to generate tags and improve search results.
@@ -34,19 +34,20 @@ TODO: Add long description of the pod here.
   # 层级目录，添加公共头文件
   s.public_header_files = 'LLToolbox/Classes/*.h'
   
+  s.vendored_frameworks = 'LLToolbox/Frameworks/LLToolbox.framework'
   
-  s.subspec 'Categorys' do |ss|
-    ss.source_files = 'LLToolbox/Classes/Categorys/*'
-  end
-  
-  s.subspec 'Functions' do |dd|
-    dd.source_files = 'LLToolbox/Classes/Functions/*'
-  end
-  
-  s.subspec 'Views' do |aa|
-    aa.source_files = 'LLToolbox/Classes/Views/*'
-    aa.dependency 'LLToolbox/Categorys'
-  end
+#  s.subspec 'Categorys' do |ss|
+#    ss.source_files = 'LLToolbox/Classes/Categorys/*'
+#  end
+#
+#  s.subspec 'Functions' do |dd|
+#    dd.source_files = 'LLToolbox/Classes/Functions/*'
+#  end
+#
+#  s.subspec 'Views' do |aa|
+#    aa.source_files = 'LLToolbox/Classes/Views/*'
+#    aa.dependency 'LLToolbox/Categorys'
+#  end
   
   
   # s.resource_bundles = {
