@@ -30,9 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LLToolbox/Classes/*.h'
+#  s.source_files = 'LLToolbox/Classes/*.h'
   # 层级目录，添加公共头文件
-  s.public_header_files = 'LLToolbox/Classes/*.h'
+#  s.public_header_files = 'LLToolbox/Classes/*.h'
   
   s.vendored_frameworks = 'LLToolbox/Frameworks/LLToolbox.framework'
   
