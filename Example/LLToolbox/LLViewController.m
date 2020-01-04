@@ -7,13 +7,12 @@
 //
 
 #import "LLViewController.h"
-#import <LLToolbox/LLToolCategory.h>
-#import <LLTOolbox/LLToolFunction.h>
+
+#import <LLToolbox/LLToolbox.h>
 
 #import "LLPerson.h"
 #import "LLStudent.h"
 
-#import "LLAlertView.h"
 
 
 @interface LLViewController ()
@@ -27,14 +26,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = UIColor.brownColor;
+    self.view.backgroundColor = [UIColor.grayColor colorWithAlphaComponent:0.5];
 
     
     self.AView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    self.AView.backgroundColor = LLToolbox.randColor;
+    self.AView.backgroundColor = LLToolKit.randColor;
     [self.view addSubview:self.AView];
 
     
+    LLPerson* pp = [LLPerson objectWithModelDic:@{
+        @"name":@"luoliang"
+    }];
+    [pp print];
     
 }
 

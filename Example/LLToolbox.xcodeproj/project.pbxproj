@@ -64,11 +64,13 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6B073F170DCF2D4D305CFD56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C70054F223B5DF100058FC69 /* LLToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LLToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71384BD23B9D030005E842F /* LLToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LLToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C717398D23A201FC0002EEBD /* LLPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLPerson.h; sourceTree = "<group>"; };
 		C717398E23A201FC0002EEBD /* LLPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPerson.m; sourceTree = "<group>"; };
 		C717399023A202980002EEBD /* LLStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLStudent.h; sourceTree = "<group>"; };
 		C717399123A202980002EEBD /* LLStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLStudent.m; sourceTree = "<group>"; };
-		D8D649D83A1ED6520F58A697 /* LLToolbox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLToolbox.podspec; path = ../LLToolbox.podspec; sourceTree = "<group>"; };
+		D8D649D83A1ED6520F58A697 /* LLToolbox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLToolbox.podspec; path = ../LLToolbox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E537010E933F85F53C673345 /* Pods_LLToolbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLToolbox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFB27555CE07486CA32750C /* Pods-LLToolbox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLToolbox_Example.release.xcconfig"; path = "Target Support Files/Pods-LLToolbox_Example/Pods-LLToolbox_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +125,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C71384BD23B9D030005E842F /* LLToolbox.framework */,
+				C70054F223B5DF100058FC69 /* LLToolbox.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -214,7 +218,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				DD64EE9B17D6CF02A281085A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,7 +258,7 @@
 				ORGANIZATIONNAME = LOLITA0164;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = YU8WFN7X32;
+						DevelopmentTeam = 96KT2V2ANX;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -346,24 +349,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD64EE9B17D6CF02A281085A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LLToolbox_Example/Pods-LLToolbox_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LLToolbox/LLToolbox.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLToolbox.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LLToolbox_Example/Pods-LLToolbox_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -505,10 +490,11 @@
 			baseConfigurationReference = 298633BC7349E3AD7360199E /* Pods-LLToolbox_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YU8WFN7X32;
+				DEVELOPMENT_TEAM = 96KT2V2ANX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLToolbox/LLToolbox-Prefix.pch";
 				INFOPLIST_FILE = "LLToolbox/LLToolbox-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -524,10 +510,11 @@
 			baseConfigurationReference = FCFB27555CE07486CA32750C /* Pods-LLToolbox_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YU8WFN7X32;
+				DEVELOPMENT_TEAM = 96KT2V2ANX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLToolbox/LLToolbox-Prefix.pch";
 				INFOPLIST_FILE = "LLToolbox/LLToolbox-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
