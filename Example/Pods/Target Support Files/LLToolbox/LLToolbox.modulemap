@@ -1,6 +1,0 @@
-framework module LLToolbox {
-  umbrella header "LLToolbox-umbrella.h"
-
-  export *
-  module * { export * }
-}

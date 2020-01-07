@@ -10,6 +10,12 @@
 
 @interface NSString (LLTool)
 
+/// 获取当前时间
++(NSString*)currentDate:(NSString*)dateFormat;
+
+/// 获取时间戳
++(NSString*)timestamp:(NSDate*)date;
+
 /// md5 加密
 -(NSString*)md5String;
 

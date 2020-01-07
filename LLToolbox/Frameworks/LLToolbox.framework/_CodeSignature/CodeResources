@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/LLToolbox.h</key>
 		<data>
-		Zu693C19VAb3usbIKIExSMK2dE0=
+		oohM5UZSLtr5vgqUute3W1tRHPs=
 		</data>
 		<key>Headers/NSDictionary+LLTool.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/NSString+LLTool.h</key>
 		<data>
-		/3j12vjrpTNMRtUGKP6Iy0O5fUA=
+		XuhEoSQY1sbc+Mzv1nrjvBWvCv4=
 		</data>
 		<key>Headers/NSTimer+LLTool.h</key>
 		<data>
@@ -71,6 +71,10 @@
 		<key>Headers/UIView+LLTool.h</key>
 		<data>
 		Ajz2HvlIvk8gNTgjAYsx/aM4N/s=
+		</data>
+		<key>Headers/UIViewController+LLTool.h</key>
+		<data>
+		CYpgftxZWLcRvVKLUYLxpNP3YbA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -153,11 +157,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zu693C19VAb3usbIKIExSMK2dE0=
+			oohM5UZSLtr5vgqUute3W1tRHPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			10RDdBvQ2foiEeMVN0uhR3wfhxkpc4b5yBEqftNqmTM=
+			bQD2RP9JToEVfTI1qwQXUEgIkO+DQ6QuA+yJxc/XSLw=
 			</data>
 		</dict>
 		<key>Headers/NSDictionary+LLTool.h</key>
@@ -186,11 +190,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/3j12vjrpTNMRtUGKP6Iy0O5fUA=
+			XuhEoSQY1sbc+Mzv1nrjvBWvCv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			KYy5tJuX0QjqHsnEup+Dq1+ivUGNVFGkyySJ1aoXbBo=
+			pXoOT1noN5ZQbi56+P+33qd4mPW91/+zIIXDwkFy6XE=
 			</data>
 		</dict>
 		<key>Headers/NSTimer+LLTool.h</key>
@@ -268,6 +272,17 @@
 			<key>hash2</key>
 			<data>
 			HjGWOONEehaqeCH0//mcmtMCqO9CyStFw5VLnZxWyBI=
+			</data>
+		</dict>
+		<key>Headers/UIViewController+LLTool.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CYpgftxZWLcRvVKLUYLxpNP3YbA=
+			</data>
+			<key>hash2</key>
+			<data>
+			NrvUg8mKrDuh/9/6t1bDrgaUo3bj4Pj/n6Jryykj38o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,6 +1,6 @@
 {
   "name": "LLToolbox",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "summary": "开发工具盒.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LOLITA0164/LLToolbox",
@@ -13,12 +13,10 @@
   },
   "source": {
     "git": "https://github.com/LOLITA0164/LLToolbox.git",
-    "tag": "0.1.4"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LLToolbox/Classes/*.h",
-  "public_header_files": "LLToolbox/Classes/*.h",
   "vendored_frameworks": "LLToolbox/Frameworks/LLToolbox.framework"
 }

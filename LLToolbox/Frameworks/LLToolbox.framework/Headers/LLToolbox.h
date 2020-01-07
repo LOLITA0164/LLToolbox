@@ -28,6 +28,7 @@ FOUNDATION_EXPORT const unsigned char LLToolboxVersionString[];
 #import <LLToolbox/UICollectionViewCell+LLTool.h> // 便捷重用
 #import <LLToolbox/UIView+LLTool.h> // 视图布局工具
 #import <LLToolbox/UIColor+LLTool.h> // 颜色
+#import <LLToolbox/UIViewController+LLTool.h> // AOP
 
 
 /* 工具套装 */

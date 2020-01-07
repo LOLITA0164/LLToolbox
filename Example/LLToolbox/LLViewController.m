@@ -39,6 +39,8 @@
     }];
     [pp print];
     
+    NSLog(@"当前时间：%@",[NSString currentDate:nil]);
+    
 }
 
 
