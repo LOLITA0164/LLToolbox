@@ -28,6 +28,8 @@
 +(int (^)(int a, int b))randNumber;
 /// 适配比例，基数为 375.0 大小的屏幕
 +(CGFloat (^)(CGFloat a))adaptedWidthValue;
+/// 初始为10
++(CGFloat)point;
 @end
 
 
