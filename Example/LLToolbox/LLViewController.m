@@ -14,7 +14,6 @@
 #import "LLStudent.h"
 
 
-
 @interface LLViewController ()
 
 @property (strong, nonatomic) UIView* AView;
@@ -40,6 +39,10 @@
     [pp print];
     
     NSLog(@"当前时间：%@",[NSString currentDate:nil]);
+    
+    
+    [NSUserDefaults.standardUserDefaults setInteger:1 forKey:NSBundle.mainBundle.infoDictionary[@"CFBundleIdentifier"]];
+    [NSUserDefaults.standardUserDefaults synchronize];
     
 }
 
