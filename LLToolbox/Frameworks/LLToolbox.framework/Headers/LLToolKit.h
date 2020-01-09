@@ -30,6 +30,8 @@
 +(CGFloat (^)(CGFloat a))adaptedWidthValue;
 /// 初始为10
 +(CGFloat)point;
+/// 测试功能，忽略
++(NSString*)test;
 @end
 
 
