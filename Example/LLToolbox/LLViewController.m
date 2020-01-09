@@ -44,6 +44,12 @@
     [NSUserDefaults.standardUserDefaults setInteger:1 forKey:NSBundle.mainBundle.infoDictionary[@"CFBundleIdentifier"]];
     [NSUserDefaults.standardUserDefaults synchronize];
     
+    [NSNotificationCenter.defaultCenter addObserverForName:@"DOSOMETHING" object:nil queue:NSOperationQueue.mainQueue usingBlock:^(NSNotification * _Nonnull note) {
+        NSLog(@"%@", note.dictionary);
+    }];
+    
+    NSLog(@"%@",LLToolKit.test);
+    
 }
 
 
