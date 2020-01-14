@@ -1,10 +1,3 @@
-//
-//  LLFileManager.h
-//  LLFileManager
-//
-//  Created by 骆亮 on 2018/1/30.
-//  Copyright © 2018年 LOLITA. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 

@@ -1,10 +1,3 @@
-//
-//  LLNestedTableView.h
-//  LLToolbox_Example
-//
-//  Created by 骆亮 on 2019/12/12.
-//  Copyright © 2019 LOLITA0164. All rights reserved.
-//
 
 /*
  解决列表联动的问题

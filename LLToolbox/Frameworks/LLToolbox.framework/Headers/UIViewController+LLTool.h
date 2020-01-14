@@ -1,10 +1,3 @@
-//
-//  UIViewController+LLTool.h
-//  LLToolbox
-//
-//  Created by 骆亮 on 2020/1/7.
-//  Copyright © 2020 LOLITA0164. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 

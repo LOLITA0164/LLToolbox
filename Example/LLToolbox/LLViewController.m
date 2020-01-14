@@ -38,7 +38,8 @@
     }];
     [pp print];
     
-    NSLog(@"当前时间：%@",[NSString currentDate:nil]);
+    
+    NSLog(@"当前库的版本：%@",LLToolKit.version);
     
     
     [NSUserDefaults.standardUserDefaults setInteger:1 forKey:NSBundle.mainBundle.infoDictionary[@"CFBundleIdentifier"]];
@@ -48,7 +49,7 @@
         NSLog(@"%@", note.dictionary);
     }];
     
-    NSLog(@"%@",LLToolKit.test);
+    
     
 }
 

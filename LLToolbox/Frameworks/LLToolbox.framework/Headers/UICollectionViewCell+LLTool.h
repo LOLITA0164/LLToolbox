@@ -1,9 +1,3 @@
-//
-//  UICollectionViewCell+LLTool.h
-//  LLToolbox
-//
-//  Created by 骆亮 on 2019/12/25.
-//
 
 #import <UIKit/UIKit.h>
 
