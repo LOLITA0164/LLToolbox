@@ -18,6 +18,8 @@
 
 @property (strong, nonatomic) UIView* AView;
 
+@property (strong, nonatomic) LLTimer* timer;
+
 @end
 
 @implementation LLViewController
@@ -29,7 +31,7 @@
 
     
     self.AView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    self.AView.backgroundColor = LLToolKit.randColor;
+    self.AView.backgroundColor = UIColor.rand;
     [self.view addSubview:self.AView];
 
     
@@ -41,19 +43,14 @@
     
     NSLog(@"当前库的版本：%@",LLToolKit.version);
     
-    
-    [NSUserDefaults.standardUserDefaults setInteger:1 forKey:NSBundle.mainBundle.infoDictionary[@"CFBundleIdentifier"]];
-    [NSUserDefaults.standardUserDefaults synchronize];
-    
-    [NSNotificationCenter.defaultCenter addObserverForName:@"DOSOMETHING" object:nil queue:NSOperationQueue.mainQueue usingBlock:^(NSNotification * _Nonnull note) {
-        NSLog(@"%@", note.dictionary);
-    }];
-    
-    
+    self.timer  = [LLTimer timeInertval:2.0 target:self selector:@selector(doSomething) userInfo:nil];
     
 }
 
 
+-(void)doSomething{
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+}
 
 
 

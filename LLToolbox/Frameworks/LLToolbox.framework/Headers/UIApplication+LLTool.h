@@ -5,8 +5,6 @@
 /// 当前控制器
 -(UIViewController*)currentViewController;
 
-
-
 @end
 
 
