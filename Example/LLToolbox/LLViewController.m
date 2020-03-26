@@ -20,6 +20,8 @@
 
 @property (strong, nonatomic) LLTimer* timer;
 
+@property (strong, nonatomic) LLKVOHandle* handle;
+
 @end
 
 @implementation LLViewController
@@ -34,16 +36,17 @@
     self.AView.backgroundColor = UIColor.rand;
     [self.view addSubview:self.AView];
 
-    
+    // 字典 -> 数据模型
     LLPerson* pp = [LLPerson objectWithModelDic:@{
         @"name":@"luoliang"
     }];
     [pp print];
     
-    
     NSLog(@"当前库的版本：%@",LLToolKit.version);
     
+    // 创建定时器
     self.timer  = [LLTimer timeInertval:2.0 target:self selector:@selector(doSomething) userInfo:nil];
+    
     
 }
 
