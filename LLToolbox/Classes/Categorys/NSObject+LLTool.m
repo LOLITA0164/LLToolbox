@@ -10,7 +10,6 @@
 #import <objc/runtime.h>
 #pragma clang diagnostic ignored "-Wobjc-designated-initializers"
 
-#import "LLToolKit.h"
 #import "NSString+LLTool.h"
 
 @implementation NSObject (LLTool)
