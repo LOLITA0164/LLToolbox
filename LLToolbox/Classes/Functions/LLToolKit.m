@@ -29,7 +29,7 @@ static LLToolKit* obj = nil;
 
 /// 工具箱的版本
 +(NSString*)version{
-    return @"0.2.8";
+    return @"0.2.9";
 }
 
 @end
