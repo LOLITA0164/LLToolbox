@@ -6,25 +6,58 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		E24E76356222DB3EE77EF0040DBA0081 /* LLToolbox */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = B3A9A56B14ADBB635E7188122AAFB10D /* Build configuration list for PBXAggregateTarget "LLToolbox" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = LLToolbox;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		026930859CA73B858AD8181E3BA859A0 /* Pods-LLToolbox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0775B18EEABABA1CBFDEF99CB41354B8 /* Pods-LLToolbox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		026930859CA73B858AD8181E3BA859A0 /* Pods-LLToolbox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFEC0A8C60F647A8F7F2357B56B3A7A /* Pods-LLToolbox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0395E2FE6B4D71320EEC97CBB557DC19 /* LLToolbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2DCE2654713D31124D769EF15F4CA /* LLToolbox-dummy.m */; };
 		096B5D6A0387CA0AE8EA30B95BA07D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		44085B1A5D7F275C47AB017D264BD79E /* Pods-LLToolbox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3766FC9FEE6194B0D1CFB433C089778F /* Pods-LLToolbox_Example-dummy.m */; };
-		780D7CE0143BD34493B1653E3A704525 /* Pods-LLToolbox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3F17828FE44AC994A0D72856049B43 /* Pods-LLToolbox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		805BB7B07EBB3D7EA61E6AA1CFE906C7 /* Pods-LLToolbox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F784407475AC146735B6E0F621E171 /* Pods-LLToolbox_Tests-dummy.m */; };
+		114EC437C678D1F287A46B2308906D51 /* LLNestedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DF5B69D34F2133C95B8FD9253AD01A /* LLNestedTableView.m */; };
+		12F591D571CCE5E431C9B21533FEEBD8 /* UIApplication+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D47A2A1B6174119D4FC8A3C7984C24E6 /* UIApplication+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		165235343129CA0939442E66278B469A /* UICollectionViewCell+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A7C104ECB07278E2F86665B8462CDF /* UICollectionViewCell+LLTool.m */; };
+		177720EC32427F4ACA8CEAE1CE80FF69 /* NSTimer+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A83CD8F63AADB3E5D480EB39C75E184 /* NSTimer+LLTool.m */; };
+		1D81B0CB1E563FE1F834D33AC64B9165 /* LLRemotePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 717A42DC13E7B342EBD90B8A666E133D /* LLRemotePush.m */; };
+		236718D8B25921A04ABABA4F38D0DF0D /* NSString+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C78E942203F03BA1ED75E21AE636150 /* NSString+LLTool.m */; };
+		312106ED2D19B2C4D8611BD1BF9410CA /* LLURLProtocolCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = B916AA88789F2F3433EF51FEDEE696C6 /* LLURLProtocolCustom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3415748790133CDEDDE40117ED167C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		35EF54E37E0322979E7CA4FF443EB323 /* UIColor+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A92EC7CC86B72EABBDC3D381606C71 /* UIColor+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36067D918C6443B0722A4E5A0E1A2077 /* LLRemotePush.h in Headers */ = {isa = PBXBuildFile; fileRef = 998FC0E4E06DCE594D6CE866F0D48E01 /* LLRemotePush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D2C0F9218CC52A48C7A225EF64F027B /* LLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C98991B8F7DEB787BD2E2B7C8A7F82F /* LLAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2AC517A6BA69D3CDF536C6CAD7AF74 /* UIButton+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 921221E68A93EF7C77D6A321F70BF4AD /* UIButton+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44085B1A5D7F275C47AB017D264BD79E /* Pods-LLToolbox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9451B1FB2DECEFA5A696D6F114A514 /* Pods-LLToolbox_Example-dummy.m */; };
+		4703963F27E45A0F99220566DF134B69 /* LLToolboxDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3678FED36FC8EA9737AE6314F1DC576C /* LLToolboxDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A2B3074D865B77ECD0311A5814A89F3 /* LLThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9C2B35587973EF05536826373BE988 /* LLThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		520630DE5F3C47220C2FFE4D2EB765BF /* UIColor+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EA1F419005B2F769A898FD35D8F65 /* UIColor+LLTool.m */; };
+		578A85D596D42DDAF5FD332B64CEE96C /* LLTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58A96ACA79F24EAC3FCD35B50901E5 /* LLTimer.m */; };
+		585B54BBFCEC77E3ACBF62088B9A1557 /* UICollectionViewCell+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AD5DE37C6429C4A7A9F8A7B4F26B37 /* UICollectionViewCell+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5888DAA9340BEDA701AF2B6963CAC085 /* LLThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D88E3A3AD74B4DAEA97712D9D1516D /* LLThread.m */; };
+		66D72A88E0A6D6E115BC0D009065C4F8 /* UIViewController+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 767ECC0590920F3C07B64B6C554461D5 /* UIViewController+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6777513769767C01D40E3489A10186D9 /* LLFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ABE6710226C944154B2BCF5CF381EF /* LLFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE02C18F6C5F11807CED5038E5386C5 /* LLToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ABAD34C09725467D25B99273F9B352 /* LLToolKit.m */; };
+		780D7CE0143BD34493B1653E3A704525 /* Pods-LLToolbox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63301823D6E173586832CC46D8DC21C5 /* Pods-LLToolbox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B144E22D5ECAF8B070CE1D55B5846ED /* UIView+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EA342E8FCC112A4BDD84406B56C61D /* UIView+LLTool.m */; };
+		805BB7B07EBB3D7EA61E6AA1CFE906C7 /* Pods-LLToolbox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 802317D93E9E9566E5586D501E013868 /* Pods-LLToolbox_Tests-dummy.m */; };
+		80DDEC8727229B543F33937553B7BD4C /* UIApplication+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 884BD3CF5C5094097E5B3F64EAEC2183 /* UIApplication+LLTool.m */; };
+		8830283C0CBA35FF1B3878D03D662EF6 /* NSString+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AC42863D27B035410A2648BD40343BD1 /* NSString+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		896B3ADC09BC50C87530C5AFEC3B5798 /* NSTimer+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 769AC42636BE3D5F94C5C38D6E5C7534 /* NSTimer+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B8EE359D240D24DBB9DA7AA3F75FBE6 /* LLToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 31828B8FEB3D8AEC8468EA9B49BC0640 /* LLToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6D072A8D2A3725F8CA660C0AC319B81 /* NSObject+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC26424E7A95AE95D60FABD505E1498 /* NSObject+LLTool.m */; };
+		B42354AF9B499A436401726FDA88F69D /* UIView+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 414C5B7AA8E0B946C0C21526F91D5E79 /* UIView+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B50F9556F809ECC0D0A8BE1722CE5748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B55CAD574A3EFEA19074D1AC6E322025 /* LLTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E016C07187BE5EA3FAF7F94369C7D19 /* LLTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C149AAE9D18914F639812D05BCF9851C /* UITableViewCell+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A912E980E240BA44CD9EB91B44D347 /* UITableViewCell+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5620DFAF82EEC6DD207B42DAC53D922 /* LLKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C964356B069B7B6509952D3FF1CD3A9 /* LLKVO.m */; };
+		C7EE8808A90A62B6CCAFEC6C5DF40AA8 /* LLKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69E4225A423A7C27E6BA7C757A6620 /* LLKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8E9A0F039A8787413BFE65A56411B1D /* NSDictionary+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8562AC5948283AA732623D851F6B9D /* NSDictionary+LLTool.m */; };
+		C8F3B4026732427ABABB9905EC19A542 /* LLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 300A01B55C5AB11CDE9E07C3FE782DEF /* LLFileManager.m */; };
+		CE998AEB7100516AD9FC36BC79FB92F5 /* LLToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9DA1BBCBF6DDA52FDEF41CC8A70139 /* LLToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF3A353E8789FC100A6AF340F17853E /* LLNestedTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E6AC5F118205D70F74F88F3AE7918D /* LLNestedTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4D76C5BCB94C9262D4DBAC54B231787 /* LLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5AF648FCFFC70F2A89A14D11BCE9EF /* LLAlertView.m */; };
+		DAF6CDB08E060C46C01DBDBE3F470B72 /* UIButton+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D6369B9FDE85F22F7750AA54C35669 /* UIButton+LLTool.m */; };
+		E63A76428C32CB095AA6145F87C3624A /* UIViewController+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 965DA6C580CEE3742972EE573AA805BA /* UIViewController+LLTool.m */; };
+		E72D50BA39A3CA464C3F32DEB7F5D2BC /* LLURLProtocolCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2585CBE4CC9F5DC3F6E06B3DD7AE9D46 /* LLURLProtocolCustom.m */; };
+		E935049278F869BBCE751E953633F699 /* UITableViewCell+LLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ABB477BE7EC3F48F915D1E0D22D975 /* UITableViewCell+LLTool.m */; };
+		EE9F971FC9C07921B6319BCDBFF2259C /* LLToolbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A872E4862304A67D1BACF9266311764D /* LLToolbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2228B6230BA99CAB11F44B2E7B5283D /* NSDictionary+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 98FAC0232FCC277B000DA578CA8656E2 /* NSDictionary+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D2FF826EB0B5AFEE626CB4B7FB8C70 /* NSObject+LLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDE8841C33AA6B6FD51C128F87D5122 /* NSObject+LLTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,31 +78,80 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05CF15C915E95A42015FB93FF308624C /* Pods-LLToolbox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLToolbox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0775B18EEABABA1CBFDEF99CB41354B8 /* Pods-LLToolbox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLToolbox_Tests-umbrella.h"; sourceTree = "<group>"; };
-		07CBFA566A7F03829C5AC7BD2D85C288 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		12F784407475AC146735B6E0F621E171 /* Pods-LLToolbox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLToolbox_Tests-dummy.m"; sourceTree = "<group>"; };
-		137EC4621C3FDA36406333EC1B1D8918 /* Pods-LLToolbox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLToolbox_Example.modulemap"; sourceTree = "<group>"; };
-		287C5DF1C6EC25BE25A12B1F4323E52C /* Pods-LLToolbox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLToolbox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2BC22D16818C56362A208E8358794C9B /* Pods-LLToolbox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLToolbox_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		308EC5B1F27142959FE2370541C7C8AD /* LLToolbox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLToolbox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0217ED6AD069D4700D58AE9A95423352 /* Pods-LLToolbox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLToolbox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		05EA44EAC103EF87E484CF37BE733145 /* Pods-LLToolbox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLToolbox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0C98991B8F7DEB787BD2E2B7C8A7F82F /* LLAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLAlertView.h; path = LLToolbox/Classes/Views/LLAlertView.h; sourceTree = "<group>"; };
+		14D88E3A3AD74B4DAEA97712D9D1516D /* LLThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLThread.m; path = LLToolbox/Classes/Functions/LLThread.m; sourceTree = "<group>"; };
+		1610E338F707DF1015B2E6D78A2F7CEE /* LLToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLToolbox.release.xcconfig; sourceTree = "<group>"; };
+		1DD0D2642DC16480044B5710AAF16261 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1EE2DCE2654713D31124D769EF15F4CA /* LLToolbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLToolbox-dummy.m"; sourceTree = "<group>"; };
+		2585CBE4CC9F5DC3F6E06B3DD7AE9D46 /* LLURLProtocolCustom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLURLProtocolCustom.m; path = LLToolbox/Classes/Functions/LLURLProtocolCustom.m; sourceTree = "<group>"; };
+		27D920F3CA51A91D3738E0787C3602E4 /* LLToolbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLToolbox.modulemap; sourceTree = "<group>"; };
+		2A5895B5DA245241787BDA036AFD1257 /* Pods-LLToolbox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLToolbox_Example.modulemap"; sourceTree = "<group>"; };
+		2A58A96ACA79F24EAC3FCD35B50901E5 /* LLTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLTimer.m; path = LLToolbox/Classes/Functions/LLTimer.m; sourceTree = "<group>"; };
+		2C2EA1F419005B2F769A898FD35D8F65 /* UIColor+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LLTool.m"; path = "LLToolbox/Classes/Categorys/UIColor+LLTool.m"; sourceTree = "<group>"; };
+		300A01B55C5AB11CDE9E07C3FE782DEF /* LLFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLFileManager.m; path = LLToolbox/Classes/Functions/LLFileManager.m; sourceTree = "<group>"; };
+		31828B8FEB3D8AEC8468EA9B49BC0640 /* LLToolKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLToolKit.h; path = LLToolbox/Classes/Functions/LLToolKit.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3766FC9FEE6194B0D1CFB433C089778F /* Pods-LLToolbox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLToolbox_Example-dummy.m"; sourceTree = "<group>"; };
-		3A4C81B4B2FE77474FF1150754A50D4E /* Pods-LLToolbox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLToolbox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33B7979D5AAF3D035569D216A4A0909C /* Pods-LLToolbox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLToolbox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		33E6AC5F118205D70F74F88F3AE7918D /* LLNestedTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLNestedTableView.h; path = LLToolbox/Classes/Views/LLNestedTableView.h; sourceTree = "<group>"; };
+		3678FED36FC8EA9737AE6314F1DC576C /* LLToolboxDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLToolboxDefines.h; path = LLToolbox/Classes/Categorys/LLToolboxDefines.h; sourceTree = "<group>"; };
+		3873EF5B9014BD74E9D8F94C64ED04D7 /* LLToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LLToolbox.framework; path = LLToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A912E980E240BA44CD9EB91B44D347 /* UITableViewCell+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+LLTool.h"; path = "LLToolbox/Classes/Categorys/UITableViewCell+LLTool.h"; sourceTree = "<group>"; };
+		39E10CAF0DE4B479D12FE47483E5D10B /* Pods-LLToolbox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLToolbox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BDE8841C33AA6B6FD51C128F87D5122 /* NSObject+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LLTool.h"; path = "LLToolbox/Classes/Categorys/NSObject+LLTool.h"; sourceTree = "<group>"; };
+		3C9DA1BBCBF6DDA52FDEF41CC8A70139 /* LLToolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLToolbox.h; path = LLToolbox/Classes/LLToolbox.h; sourceTree = "<group>"; };
 		3F9F5866F5BA63FD80BAE53FBCCC4ACB /* Pods_LLToolbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLToolbox_Tests.framework; path = "Pods-LLToolbox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A49F945B144D0A5AA09BB67061128D0 /* LLToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LLToolbox.framework; path = LLToolbox/Frameworks/LLToolbox.framework; sourceTree = "<group>"; };
-		6152849F7AE6E8DC42130FE347F3844C /* Pods-LLToolbox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLToolbox_Tests-Info.plist"; sourceTree = "<group>"; };
-		80AA3646AE2B759AE10AFAD4692D856C /* Pods-LLToolbox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLToolbox_Tests.modulemap"; sourceTree = "<group>"; };
-		904D2F2F22518B1DDF5838B4AAFD257A /* Pods-LLToolbox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLToolbox_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		90C18A0762919E91077C0BC5FA6DE304 /* Pods-LLToolbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLToolbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4063B8ADA07F4FC49CE5DF199C970FDD /* Pods-LLToolbox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLToolbox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		414C5B7AA8E0B946C0C21526F91D5E79 /* UIView+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LLTool.h"; path = "LLToolbox/Classes/Categorys/UIView+LLTool.h"; sourceTree = "<group>"; };
+		41EA342E8FCC112A4BDD84406B56C61D /* UIView+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LLTool.m"; path = "LLToolbox/Classes/Categorys/UIView+LLTool.m"; sourceTree = "<group>"; };
+		549ACCD9F07A31D5BA631853B39710D9 /* Pods-LLToolbox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLToolbox_Example-Info.plist"; sourceTree = "<group>"; };
+		58DCA7E069947A80FDC7851D0EFA53A7 /* Pods-LLToolbox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLToolbox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E016C07187BE5EA3FAF7F94369C7D19 /* LLTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLTimer.h; path = LLToolbox/Classes/Functions/LLTimer.h; sourceTree = "<group>"; };
+		63301823D6E173586832CC46D8DC21C5 /* Pods-LLToolbox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLToolbox_Example-umbrella.h"; sourceTree = "<group>"; };
+		67DF5B69D34F2133C95B8FD9253AD01A /* LLNestedTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLNestedTableView.m; path = LLToolbox/Classes/Views/LLNestedTableView.m; sourceTree = "<group>"; };
+		6C964356B069B7B6509952D3FF1CD3A9 /* LLKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLKVO.m; path = LLToolbox/Classes/Functions/LLKVO.m; sourceTree = "<group>"; };
+		6EC60FC63EA1CBD1E9BA8E57C68C9622 /* LLToolbox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLToolbox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		717A42DC13E7B342EBD90B8A666E133D /* LLRemotePush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLRemotePush.m; path = LLToolbox/Classes/Functions/LLRemotePush.m; sourceTree = "<group>"; };
+		74020324F80A025B031FEF10447DBA85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		74786E217288C1CF9A5DB3B5D5DEB643 /* LLToolbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LLToolbox-Info.plist"; sourceTree = "<group>"; };
+		767ECC0590920F3C07B64B6C554461D5 /* UIViewController+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LLTool.h"; path = "LLToolbox/Classes/Categorys/UIViewController+LLTool.h"; sourceTree = "<group>"; };
+		769AC42636BE3D5F94C5C38D6E5C7534 /* NSTimer+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+LLTool.h"; path = "LLToolbox/Classes/Categorys/NSTimer+LLTool.h"; sourceTree = "<group>"; };
+		7A9C2B35587973EF05536826373BE988 /* LLThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLThread.h; path = LLToolbox/Classes/Functions/LLThread.h; sourceTree = "<group>"; };
+		7C78E942203F03BA1ED75E21AE636150 /* NSString+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LLTool.m"; path = "LLToolbox/Classes/Categorys/NSString+LLTool.m"; sourceTree = "<group>"; };
+		7D9451B1FB2DECEFA5A696D6F114A514 /* Pods-LLToolbox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLToolbox_Example-dummy.m"; sourceTree = "<group>"; };
+		802317D93E9E9566E5586D501E013868 /* Pods-LLToolbox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLToolbox_Tests-dummy.m"; sourceTree = "<group>"; };
+		80BFEA62B3A980D30569C8DEF8B79520 /* Pods-LLToolbox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLToolbox_Example-frameworks.sh"; sourceTree = "<group>"; };
+		84ABE6710226C944154B2BCF5CF381EF /* LLFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLFileManager.h; path = LLToolbox/Classes/Functions/LLFileManager.h; sourceTree = "<group>"; };
+		884BD3CF5C5094097E5B3F64EAEC2183 /* UIApplication+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+LLTool.m"; path = "LLToolbox/Classes/Categorys/UIApplication+LLTool.m"; sourceTree = "<group>"; };
+		921221E68A93EF7C77D6A321F70BF4AD /* UIButton+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LLTool.h"; path = "LLToolbox/Classes/Categorys/UIButton+LLTool.h"; sourceTree = "<group>"; };
+		94FAB0090A4BD1ECBD10A09CE55891D8 /* Pods-LLToolbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLToolbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		965DA6C580CEE3742972EE573AA805BA /* UIViewController+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LLTool.m"; path = "LLToolbox/Classes/Categorys/UIViewController+LLTool.m"; sourceTree = "<group>"; };
+		98FAC0232FCC277B000DA578CA8656E2 /* NSDictionary+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LLTool.h"; path = "LLToolbox/Classes/Categorys/NSDictionary+LLTool.h"; sourceTree = "<group>"; };
+		998FC0E4E06DCE594D6CE866F0D48E01 /* LLRemotePush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLRemotePush.h; path = LLToolbox/Classes/Functions/LLRemotePush.h; sourceTree = "<group>"; };
+		9A83CD8F63AADB3E5D480EB39C75E184 /* NSTimer+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+LLTool.m"; path = "LLToolbox/Classes/Categorys/NSTimer+LLTool.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EBF143936EE67737AC039B6A34E90F9 /* Pods-LLToolbox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLToolbox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A73772B760229DD984A09180E2E60BCA /* Pods-LLToolbox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLToolbox_Example-Info.plist"; sourceTree = "<group>"; };
+		9DFEC0A8C60F647A8F7F2357B56B3A7A /* Pods-LLToolbox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLToolbox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A872E4862304A67D1BACF9266311764D /* LLToolbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLToolbox-umbrella.h"; sourceTree = "<group>"; };
+		AA4D5A92A37BD07C9781E9409471D41C /* LLToolbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLToolbox-prefix.pch"; sourceTree = "<group>"; };
+		AB69E4225A423A7C27E6BA7C757A6620 /* LLKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLKVO.h; path = LLToolbox/Classes/Functions/LLKVO.h; sourceTree = "<group>"; };
+		AC42863D27B035410A2648BD40343BD1 /* NSString+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LLTool.h"; path = "LLToolbox/Classes/Categorys/NSString+LLTool.h"; sourceTree = "<group>"; };
 		ADDFF930D081B997C93CB43641BCCFFE /* Pods_LLToolbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLToolbox_Example.framework; path = "Pods-LLToolbox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1DDBF4E8775815245583AE1498367C7 /* LLToolbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLToolbox.xcconfig; sourceTree = "<group>"; };
-		BA3F17828FE44AC994A0D72856049B43 /* Pods-LLToolbox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLToolbox_Example-umbrella.h"; sourceTree = "<group>"; };
-		DBB906CA59BEE50BB23B981784D99F62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F0C20457E9E9FB5E61709F4D8B8B4BD2 /* Pods-LLToolbox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLToolbox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4ABB477BE7EC3F48F915D1E0D22D975 /* UITableViewCell+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+LLTool.m"; path = "LLToolbox/Classes/Categorys/UITableViewCell+LLTool.m"; sourceTree = "<group>"; };
+		B8A92EC7CC86B72EABBDC3D381606C71 /* UIColor+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LLTool.h"; path = "LLToolbox/Classes/Categorys/UIColor+LLTool.h"; sourceTree = "<group>"; };
+		B916AA88789F2F3433EF51FEDEE696C6 /* LLURLProtocolCustom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLURLProtocolCustom.h; path = LLToolbox/Classes/Functions/LLURLProtocolCustom.h; sourceTree = "<group>"; };
+		BC5AF648FCFFC70F2A89A14D11BCE9EF /* LLAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLAlertView.m; path = LLToolbox/Classes/Views/LLAlertView.m; sourceTree = "<group>"; };
+		BCC26424E7A95AE95D60FABD505E1498 /* NSObject+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LLTool.m"; path = "LLToolbox/Classes/Categorys/NSObject+LLTool.m"; sourceTree = "<group>"; };
+		C5AD5DE37C6429C4A7A9F8A7B4F26B37 /* UICollectionViewCell+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+LLTool.h"; path = "LLToolbox/Classes/Categorys/UICollectionViewCell+LLTool.h"; sourceTree = "<group>"; };
+		C7CB9EA1EE58B6582FDAAB100DDF35F3 /* Pods-LLToolbox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLToolbox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C912D174F60A2DF915CCCA210ED09FBE /* LLToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLToolbox.debug.xcconfig; sourceTree = "<group>"; };
+		CE10BD7B58233D2D1C7E66D6504CF273 /* Pods-LLToolbox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLToolbox_Tests-Info.plist"; sourceTree = "<group>"; };
+		D47A2A1B6174119D4FC8A3C7984C24E6 /* UIApplication+LLTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+LLTool.h"; path = "LLToolbox/Classes/Categorys/UIApplication+LLTool.h"; sourceTree = "<group>"; };
+		D4ABAD34C09725467D25B99273F9B352 /* LLToolKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLToolKit.m; path = LLToolbox/Classes/Functions/LLToolKit.m; sourceTree = "<group>"; };
+		E3D6369B9FDE85F22F7750AA54C35669 /* UIButton+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LLTool.m"; path = "LLToolbox/Classes/Categorys/UIButton+LLTool.m"; sourceTree = "<group>"; };
+		E6A7C104ECB07278E2F86665B8462CDF /* UICollectionViewCell+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+LLTool.m"; path = "LLToolbox/Classes/Categorys/UICollectionViewCell+LLTool.m"; sourceTree = "<group>"; };
+		F3FA480AFC772B11CDC6AABE50F4D9DC /* Pods-LLToolbox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLToolbox_Tests.modulemap"; sourceTree = "<group>"; };
+		FC8562AC5948283AA732623D851F6B9D /* NSDictionary+LLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LLTool.m"; path = "LLToolbox/Classes/Categorys/NSDictionary+LLTool.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				096B5D6A0387CA0AE8EA30B95BA07D25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49001CD619607BB9A30DFD4FD2818D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3415748790133CDEDDE40117ED167C18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,65 +182,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DCA0AE36CC58A79EB7A4ABB7E35A8AD /* Products */ = {
+		0437E89C48868241291A16507547E57A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				74020324F80A025B031FEF10447DBA85 /* LICENSE */,
+				6EC60FC63EA1CBD1E9BA8E57C68C9622 /* LLToolbox.podspec */,
+				1DD0D2642DC16480044B5710AAF16261 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2D4547A4484D5B80560A67E630F36833 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				3678FED36FC8EA9737AE6314F1DC576C /* LLToolboxDefines.h */,
+				98FAC0232FCC277B000DA578CA8656E2 /* NSDictionary+LLTool.h */,
+				FC8562AC5948283AA732623D851F6B9D /* NSDictionary+LLTool.m */,
+				3BDE8841C33AA6B6FD51C128F87D5122 /* NSObject+LLTool.h */,
+				BCC26424E7A95AE95D60FABD505E1498 /* NSObject+LLTool.m */,
+				AC42863D27B035410A2648BD40343BD1 /* NSString+LLTool.h */,
+				7C78E942203F03BA1ED75E21AE636150 /* NSString+LLTool.m */,
+				769AC42636BE3D5F94C5C38D6E5C7534 /* NSTimer+LLTool.h */,
+				9A83CD8F63AADB3E5D480EB39C75E184 /* NSTimer+LLTool.m */,
+				D47A2A1B6174119D4FC8A3C7984C24E6 /* UIApplication+LLTool.h */,
+				884BD3CF5C5094097E5B3F64EAEC2183 /* UIApplication+LLTool.m */,
+				921221E68A93EF7C77D6A321F70BF4AD /* UIButton+LLTool.h */,
+				E3D6369B9FDE85F22F7750AA54C35669 /* UIButton+LLTool.m */,
+				C5AD5DE37C6429C4A7A9F8A7B4F26B37 /* UICollectionViewCell+LLTool.h */,
+				E6A7C104ECB07278E2F86665B8462CDF /* UICollectionViewCell+LLTool.m */,
+				B8A92EC7CC86B72EABBDC3D381606C71 /* UIColor+LLTool.h */,
+				2C2EA1F419005B2F769A898FD35D8F65 /* UIColor+LLTool.m */,
+				39A912E980E240BA44CD9EB91B44D347 /* UITableViewCell+LLTool.h */,
+				B4ABB477BE7EC3F48F915D1E0D22D975 /* UITableViewCell+LLTool.m */,
+				414C5B7AA8E0B946C0C21526F91D5E79 /* UIView+LLTool.h */,
+				41EA342E8FCC112A4BDD84406B56C61D /* UIView+LLTool.m */,
+				767ECC0590920F3C07B64B6C554461D5 /* UIViewController+LLTool.h */,
+				965DA6C580CEE3742972EE573AA805BA /* UIViewController+LLTool.m */,
+			);
+			name = Categorys;
+			sourceTree = "<group>";
+		};
+		392E52BBAC301EE8936F4DAD0E4936B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80BF019663734D92E2172F7423C3E26B /* Pods-LLToolbox_Example */,
+				D2BD77A5D0AAC036DC95B1DD35494BB8 /* Pods-LLToolbox_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		80BF019663734D92E2172F7423C3E26B /* Pods-LLToolbox_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2A5895B5DA245241787BDA036AFD1257 /* Pods-LLToolbox_Example.modulemap */,
+				58DCA7E069947A80FDC7851D0EFA53A7 /* Pods-LLToolbox_Example-acknowledgements.markdown */,
+				4063B8ADA07F4FC49CE5DF199C970FDD /* Pods-LLToolbox_Example-acknowledgements.plist */,
+				7D9451B1FB2DECEFA5A696D6F114A514 /* Pods-LLToolbox_Example-dummy.m */,
+				80BFEA62B3A980D30569C8DEF8B79520 /* Pods-LLToolbox_Example-frameworks.sh */,
+				549ACCD9F07A31D5BA631853B39710D9 /* Pods-LLToolbox_Example-Info.plist */,
+				63301823D6E173586832CC46D8DC21C5 /* Pods-LLToolbox_Example-umbrella.h */,
+				0217ED6AD069D4700D58AE9A95423352 /* Pods-LLToolbox_Example.debug.xcconfig */,
+				33B7979D5AAF3D035569D216A4A0909C /* Pods-LLToolbox_Example.release.xcconfig */,
+			);
+			name = "Pods-LLToolbox_Example";
+			path = "Target Support Files/Pods-LLToolbox_Example";
+			sourceTree = "<group>";
+		};
+		AE8E742B1DDA73A4843D9CF7F0982C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3873EF5B9014BD74E9D8F94C64ED04D7 /* LLToolbox.framework */,
 				ADDFF930D081B997C93CB43641BCCFFE /* Pods_LLToolbox_Example.framework */,
 				3F9F5866F5BA63FD80BAE53FBCCC4ACB /* Pods_LLToolbox_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7CCDDC1E2EC8D2EB2CFE3590F1BE22A1 /* LLToolbox */ = {
+		B0E7FBBA155BDD6C005FC71225E09229 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DD932603190F3683186B8A371C2844D1 /* Frameworks */,
-				DE58504AB082D85E96DF7EFEF932EDF5 /* Pod */,
-				EF2CAF2B5F415B4B79F625858CC9E705 /* Support Files */,
+				0C98991B8F7DEB787BD2E2B7C8A7F82F /* LLAlertView.h */,
+				BC5AF648FCFFC70F2A89A14D11BCE9EF /* LLAlertView.m */,
+				33E6AC5F118205D70F74F88F3AE7918D /* LLNestedTableView.h */,
+				67DF5B69D34F2133C95B8FD9253AD01A /* LLNestedTableView.m */,
 			);
-			name = LLToolbox;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8F34A1AF565C54FD0A71F66852CF37CF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A2A2F53F20A3E6957444419713F82720 /* Pods-LLToolbox_Example */,
-				9D61983498F85AB11E110BD52465E395 /* Pods-LLToolbox_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9D61983498F85AB11E110BD52465E395 /* Pods-LLToolbox_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				80AA3646AE2B759AE10AFAD4692D856C /* Pods-LLToolbox_Tests.modulemap */,
-				05CF15C915E95A42015FB93FF308624C /* Pods-LLToolbox_Tests-acknowledgements.markdown */,
-				3A4C81B4B2FE77474FF1150754A50D4E /* Pods-LLToolbox_Tests-acknowledgements.plist */,
-				12F784407475AC146735B6E0F621E171 /* Pods-LLToolbox_Tests-dummy.m */,
-				6152849F7AE6E8DC42130FE347F3844C /* Pods-LLToolbox_Tests-Info.plist */,
-				0775B18EEABABA1CBFDEF99CB41354B8 /* Pods-LLToolbox_Tests-umbrella.h */,
-				90C18A0762919E91077C0BC5FA6DE304 /* Pods-LLToolbox_Tests.debug.xcconfig */,
-				2BC22D16818C56362A208E8358794C9B /* Pods-LLToolbox_Tests.release.xcconfig */,
-			);
-			name = "Pods-LLToolbox_Tests";
-			path = "Target Support Files/Pods-LLToolbox_Tests";
-			sourceTree = "<group>";
-		};
-		A2A2F53F20A3E6957444419713F82720 /* Pods-LLToolbox_Example */ = {
-			isa = PBXGroup;
-			children = (
-				137EC4621C3FDA36406333EC1B1D8918 /* Pods-LLToolbox_Example.modulemap */,
-				9EBF143936EE67737AC039B6A34E90F9 /* Pods-LLToolbox_Example-acknowledgements.markdown */,
-				F0C20457E9E9FB5E61709F4D8B8B4BD2 /* Pods-LLToolbox_Example-acknowledgements.plist */,
-				3766FC9FEE6194B0D1CFB433C089778F /* Pods-LLToolbox_Example-dummy.m */,
-				A73772B760229DD984A09180E2E60BCA /* Pods-LLToolbox_Example-Info.plist */,
-				BA3F17828FE44AC994A0D72856049B43 /* Pods-LLToolbox_Example-umbrella.h */,
-				904D2F2F22518B1DDF5838B4AAFD257A /* Pods-LLToolbox_Example.debug.xcconfig */,
-				287C5DF1C6EC25BE25A12B1F4323E52C /* Pods-LLToolbox_Example.release.xcconfig */,
-			);
-			name = "Pods-LLToolbox_Example";
-			path = "Target Support Files/Pods-LLToolbox_Example";
+			name = Views;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -161,14 +277,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C0BB31AF83ED4588BEAEA6ED1EBA732D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE093D4BCFBB5D160D98F4344E42F702 /* LLToolbox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DC2C613B36D51EE7B6E325609DBAFF2C /* Development Pods */,
+				C0BB31AF83ED4588BEAEA6ED1EBA732D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0DCA0AE36CC58A79EB7A4ABB7E35A8AD /* Products */,
-				8F34A1AF565C54FD0A71F66852CF37CF /* Targets Support Files */,
+				AE8E742B1DDA73A4843D9CF7F0982C18 /* Products */,
+				392E52BBAC301EE8936F4DAD0E4936B9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,36 +304,67 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC2C613B36D51EE7B6E325609DBAFF2C /* Development Pods */ = {
+		D2BD77A5D0AAC036DC95B1DD35494BB8 /* Pods-LLToolbox_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7CCDDC1E2EC8D2EB2CFE3590F1BE22A1 /* LLToolbox */,
+				F3FA480AFC772B11CDC6AABE50F4D9DC /* Pods-LLToolbox_Tests.modulemap */,
+				C7CB9EA1EE58B6582FDAAB100DDF35F3 /* Pods-LLToolbox_Tests-acknowledgements.markdown */,
+				39E10CAF0DE4B479D12FE47483E5D10B /* Pods-LLToolbox_Tests-acknowledgements.plist */,
+				802317D93E9E9566E5586D501E013868 /* Pods-LLToolbox_Tests-dummy.m */,
+				CE10BD7B58233D2D1C7E66D6504CF273 /* Pods-LLToolbox_Tests-Info.plist */,
+				9DFEC0A8C60F647A8F7F2357B56B3A7A /* Pods-LLToolbox_Tests-umbrella.h */,
+				94FAB0090A4BD1ECBD10A09CE55891D8 /* Pods-LLToolbox_Tests.debug.xcconfig */,
+				05EA44EAC103EF87E484CF37BE733145 /* Pods-LLToolbox_Tests.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-LLToolbox_Tests";
+			path = "Target Support Files/Pods-LLToolbox_Tests";
 			sourceTree = "<group>";
 		};
-		DD932603190F3683186B8A371C2844D1 /* Frameworks */ = {
+		DE093D4BCFBB5D160D98F4344E42F702 /* LLToolbox */ = {
 			isa = PBXGroup;
 			children = (
-				5A49F945B144D0A5AA09BB67061128D0 /* LLToolbox.framework */,
+				3C9DA1BBCBF6DDA52FDEF41CC8A70139 /* LLToolbox.h */,
+				2D4547A4484D5B80560A67E630F36833 /* Categorys */,
+				FDA1043F42F98A58D71AC0EE8D86322F /* Functions */,
+				0437E89C48868241291A16507547E57A /* Pod */,
+				FEEAB0270633F0523B103592B99E3D48 /* Support Files */,
+				B0E7FBBA155BDD6C005FC71225E09229 /* Views */,
 			);
-			name = Frameworks;
+			name = LLToolbox;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		DE58504AB082D85E96DF7EFEF932EDF5 /* Pod */ = {
+		FDA1043F42F98A58D71AC0EE8D86322F /* Functions */ = {
 			isa = PBXGroup;
 			children = (
-				DBB906CA59BEE50BB23B981784D99F62 /* LICENSE */,
-				308EC5B1F27142959FE2370541C7C8AD /* LLToolbox.podspec */,
-				07CBFA566A7F03829C5AC7BD2D85C288 /* README.md */,
+				84ABE6710226C944154B2BCF5CF381EF /* LLFileManager.h */,
+				300A01B55C5AB11CDE9E07C3FE782DEF /* LLFileManager.m */,
+				AB69E4225A423A7C27E6BA7C757A6620 /* LLKVO.h */,
+				6C964356B069B7B6509952D3FF1CD3A9 /* LLKVO.m */,
+				998FC0E4E06DCE594D6CE866F0D48E01 /* LLRemotePush.h */,
+				717A42DC13E7B342EBD90B8A666E133D /* LLRemotePush.m */,
+				7A9C2B35587973EF05536826373BE988 /* LLThread.h */,
+				14D88E3A3AD74B4DAEA97712D9D1516D /* LLThread.m */,
+				5E016C07187BE5EA3FAF7F94369C7D19 /* LLTimer.h */,
+				2A58A96ACA79F24EAC3FCD35B50901E5 /* LLTimer.m */,
+				31828B8FEB3D8AEC8468EA9B49BC0640 /* LLToolKit.h */,
+				D4ABAD34C09725467D25B99273F9B352 /* LLToolKit.m */,
+				B916AA88789F2F3433EF51FEDEE696C6 /* LLURLProtocolCustom.h */,
+				2585CBE4CC9F5DC3F6E06B3DD7AE9D46 /* LLURLProtocolCustom.m */,
 			);
-			name = Pod;
+			name = Functions;
 			sourceTree = "<group>";
 		};
-		EF2CAF2B5F415B4B79F625858CC9E705 /* Support Files */ = {
+		FEEAB0270633F0523B103592B99E3D48 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B1DDBF4E8775815245583AE1498367C7 /* LLToolbox.xcconfig */,
+				27D920F3CA51A91D3738E0787C3602E4 /* LLToolbox.modulemap */,
+				1EE2DCE2654713D31124D769EF15F4CA /* LLToolbox-dummy.m */,
+				74786E217288C1CF9A5DB3B5D5DEB643 /* LLToolbox-Info.plist */,
+				AA4D5A92A37BD07C9781E9409471D41C /* LLToolbox-prefix.pch */,
+				A872E4862304A67D1BACF9266311764D /* LLToolbox-umbrella.h */,
+				C912D174F60A2DF915CCCA210ED09FBE /* LLToolbox.debug.xcconfig */,
+				1610E338F707DF1015B2E6D78A2F7CEE /* LLToolbox.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LLToolbox";
@@ -223,6 +378,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				026930859CA73B858AD8181E3BA859A0 /* Pods-LLToolbox_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28649D984DEDBE9CCEC70E06C94344A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2C0F9218CC52A48C7A225EF64F027B /* LLAlertView.h in Headers */,
+				6777513769767C01D40E3489A10186D9 /* LLFileManager.h in Headers */,
+				C7EE8808A90A62B6CCAFEC6C5DF40AA8 /* LLKVO.h in Headers */,
+				CFF3A353E8789FC100A6AF340F17853E /* LLNestedTableView.h in Headers */,
+				36067D918C6443B0722A4E5A0E1A2077 /* LLRemotePush.h in Headers */,
+				4A2B3074D865B77ECD0311A5814A89F3 /* LLThread.h in Headers */,
+				B55CAD574A3EFEA19074D1AC6E322025 /* LLTimer.h in Headers */,
+				EE9F971FC9C07921B6319BCDBFF2259C /* LLToolbox-umbrella.h in Headers */,
+				CE998AEB7100516AD9FC36BC79FB92F5 /* LLToolbox.h in Headers */,
+				4703963F27E45A0F99220566DF134B69 /* LLToolboxDefines.h in Headers */,
+				8B8EE359D240D24DBB9DA7AA3F75FBE6 /* LLToolKit.h in Headers */,
+				312106ED2D19B2C4D8611BD1BF9410CA /* LLURLProtocolCustom.h in Headers */,
+				F2228B6230BA99CAB11F44B2E7B5283D /* NSDictionary+LLTool.h in Headers */,
+				F4D2FF826EB0B5AFEE626CB4B7FB8C70 /* NSObject+LLTool.h in Headers */,
+				8830283C0CBA35FF1B3878D03D662EF6 /* NSString+LLTool.h in Headers */,
+				896B3ADC09BC50C87530C5AFEC3B5798 /* NSTimer+LLTool.h in Headers */,
+				12F591D571CCE5E431C9B21533FEEBD8 /* UIApplication+LLTool.h in Headers */,
+				3F2AC517A6BA69D3CDF536C6CAD7AF74 /* UIButton+LLTool.h in Headers */,
+				585B54BBFCEC77E3ACBF62088B9A1557 /* UICollectionViewCell+LLTool.h in Headers */,
+				35EF54E37E0322979E7CA4FF443EB323 /* UIColor+LLTool.h in Headers */,
+				C149AAE9D18914F639812D05BCF9851C /* UITableViewCell+LLTool.h in Headers */,
+				B42354AF9B499A436401726FDA88F69D /* UIView+LLTool.h in Headers */,
+				66D72A88E0A6D6E115BC0D009065C4F8 /* UIViewController+LLTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +460,24 @@
 			productReference = 3F9F5866F5BA63FD80BAE53FBCCC4ACB /* Pods_LLToolbox_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E24E76356222DB3EE77EF0040DBA0081 /* LLToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61EEA246CFAC8BBA2DFC34F308E2C202 /* Build configuration list for PBXNativeTarget "LLToolbox" */;
+			buildPhases = (
+				28649D984DEDBE9CCEC70E06C94344A1 /* Headers */,
+				6B3903834E271C597477F075CF4F46A0 /* Sources */,
+				49001CD619607BB9A30DFD4FD2818D38 /* Frameworks */,
+				1C93DB8439B902FA461C92695EDDCBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLToolbox;
+			productName = LLToolbox;
+			productReference = 3873EF5B9014BD74E9D8F94C64ED04D7 /* LLToolbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -290,9 +493,10 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0DCA0AE36CC58A79EB7A4ABB7E35A8AD /* Products */;
+			productRefGroup = AE8E742B1DDA73A4843D9CF7F0982C18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -305,6 +509,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		02A32E2FA1564A0A97F979746ECA956D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C93DB8439B902FA461C92695EDDCBE6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,6 +537,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				805BB7B07EBB3D7EA61E6AA1CFE906C7 /* Pods-LLToolbox_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3903834E271C597477F075CF4F46A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D76C5BCB94C9262D4DBAC54B231787 /* LLAlertView.m in Sources */,
+				C8F3B4026732427ABABB9905EC19A542 /* LLFileManager.m in Sources */,
+				C5620DFAF82EEC6DD207B42DAC53D922 /* LLKVO.m in Sources */,
+				114EC437C678D1F287A46B2308906D51 /* LLNestedTableView.m in Sources */,
+				1D81B0CB1E563FE1F834D33AC64B9165 /* LLRemotePush.m in Sources */,
+				5888DAA9340BEDA701AF2B6963CAC085 /* LLThread.m in Sources */,
+				578A85D596D42DDAF5FD332B64CEE96C /* LLTimer.m in Sources */,
+				0395E2FE6B4D71320EEC97CBB557DC19 /* LLToolbox-dummy.m in Sources */,
+				6BE02C18F6C5F11807CED5038E5386C5 /* LLToolKit.m in Sources */,
+				E72D50BA39A3CA464C3F32DEB7F5D2BC /* LLURLProtocolCustom.m in Sources */,
+				C8E9A0F039A8787413BFE65A56411B1D /* NSDictionary+LLTool.m in Sources */,
+				A6D072A8D2A3725F8CA660C0AC319B81 /* NSObject+LLTool.m in Sources */,
+				236718D8B25921A04ABABA4F38D0DF0D /* NSString+LLTool.m in Sources */,
+				177720EC32427F4ACA8CEAE1CE80FF69 /* NSTimer+LLTool.m in Sources */,
+				80DDEC8727229B543F33937553B7BD4C /* UIApplication+LLTool.m in Sources */,
+				DAF6CDB08E060C46C01DBDBE3F470B72 /* UIButton+LLTool.m in Sources */,
+				165235343129CA0939442E66278B469A /* UICollectionViewCell+LLTool.m in Sources */,
+				520630DE5F3C47220C2FFE4D2EB765BF /* UIColor+LLTool.m in Sources */,
+				E935049278F869BBCE751E953633F699 /* UITableViewCell+LLTool.m in Sources */,
+				7B144E22D5ECAF8B070CE1D55B5846ED /* UIView+LLTool.m in Sources */,
+				E63A76428C32CB095AA6145F87C3624A /* UIViewController+LLTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +596,7 @@
 /* Begin XCBuildConfiguration section */
 		267DFE26E96C0E1B9F9DF34496009CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90C18A0762919E91077C0BC5FA6DE304 /* Pods-LLToolbox_Tests.debug.xcconfig */;
+			baseConfigurationReference = 94FAB0090A4BD1ECBD10A09CE55891D8 /* Pods-LLToolbox_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -448,9 +687,72 @@
 			};
 			name = Release;
 		};
+		50BD1E9411E5DA4F9FF360648BBFE3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1610E338F707DF1015B2E6D78A2F7CEE /* LLToolbox.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LLToolbox/LLToolbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLToolbox/LLToolbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LLToolbox/LLToolbox.modulemap";
+				PRODUCT_MODULE_NAME = LLToolbox;
+				PRODUCT_NAME = LLToolbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ACE077FDA25F264E14CF1A95DAB3D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C912D174F60A2DF915CCCA210ED09FBE /* LLToolbox.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LLToolbox/LLToolbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLToolbox/LLToolbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LLToolbox/LLToolbox.modulemap";
+				PRODUCT_MODULE_NAME = LLToolbox;
+				PRODUCT_NAME = LLToolbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		688F50B9AE8C0CA18EFC3A417CA03E17 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 904D2F2F22518B1DDF5838B4AAFD257A /* Pods-LLToolbox_Example.debug.xcconfig */;
+			baseConfigurationReference = 0217ED6AD069D4700D58AE9A95423352 /* Pods-LLToolbox_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -547,7 +849,7 @@
 		};
 		9AD095F58232F76F067F3351A38AE7FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BC22D16818C56362A208E8358794C9B /* Pods-LLToolbox_Tests.release.xcconfig */;
+			baseConfigurationReference = 05EA44EAC103EF87E484CF37BE733145 /* Pods-LLToolbox_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -581,7 +883,7 @@
 		};
 		9CF95F04D3CA8934FAE009591D6446D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287C5DF1C6EC25BE25A12B1F4323E52C /* Pods-LLToolbox_Example.release.xcconfig */;
+			baseConfigurationReference = 33B7979D5AAF3D035569D216A4A0909C /* Pods-LLToolbox_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -613,33 +915,6 @@
 			};
 			name = Release;
 		};
-		B83647C68A192EB73E2EA2E104209236 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1DDBF4E8775815245583AE1498367C7 /* LLToolbox.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C3FAC657500556DB5FFE6BB9237EEBD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1DDBF4E8775815245583AE1498367C7 /* LLToolbox.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -661,11 +936,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3A9A56B14ADBB635E7188122AAFB10D /* Build configuration list for PBXAggregateTarget "LLToolbox" */ = {
+		61EEA246CFAC8BBA2DFC34F308E2C202 /* Build configuration list for PBXNativeTarget "LLToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B83647C68A192EB73E2EA2E104209236 /* Debug */,
-				C3FAC657500556DB5FFE6BB9237EEBD6 /* Release */,
+				5ACE077FDA25F264E14CF1A95DAB3D59 /* Debug */,
+				50BD1E9411E5DA4F9FF360648BBFE3BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

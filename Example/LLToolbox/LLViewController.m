@@ -40,7 +40,7 @@
     LLPerson* pp = [LLPerson objectWithModelDic:@{
         @"name":@"luoliang"
     }];
-    [pp print];
+    [pp printInfo];
     
     NSLog(@"当前库的版本：%@",LLToolKit.version);
     
